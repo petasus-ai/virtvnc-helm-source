@@ -21,7 +21,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: "virt-vnc"
-  namespace: kubevirt
+  namespace: {{ .Release.Namespace }}
   labels:
     app: virtvnc
 spec:
