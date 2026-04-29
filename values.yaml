@@ -19,7 +19,7 @@
 images:
   pullPolicy: IfNotPresent
   tags:
-    virtvnc: 'registry.gitlab.com/sonaproject/virtvnc:latest'
+    virtvnc: 'quay.io/edgestack/kv-vnc:latest'
 
 service:
   ## Service type
