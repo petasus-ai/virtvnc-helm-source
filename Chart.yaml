@@ -16,7 +16,7 @@ apiVersion: v1
 appVersion: "1.0"
 description: A Helm chart for virtvnc deployment
 name: virtvnc
-home: https://github.com/sonaproject/virtvnc
+home: https://github.com/petasus-ai/kubevirt-novnc
 version: 0.1.0
 keywords:
   - MEC
@@ -24,7 +24,7 @@ keywords:
   - Kubevirt
   - Kubernetes
 sources:
-  - https://github.com/sonaproject/virtvnc
+  - https://github.com/petasus-ai/kubevirt-novnc
 maintainers:
   - name: Jian Li
     email: gunine@sk.com
