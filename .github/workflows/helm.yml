@@ -19,7 +19,7 @@ jobs:
       - name: Helm Repository Checkout
         uses: actions/checkout@v2
         with:
-          repository: sonaproject/virtvnc-helm
+          repository: petasus-ai/virtvnc-helm
           token: ${{ secrets.MY_TOKEN }}
           fetch-depth: 0
           persist-credentials: true
@@ -31,7 +31,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.MY_TOKEN }}
         run: |
-          git config --global user.email "opensonaproject@gmail.com"
+          git config --global user.email "edgestack-bot@users.noreply.github.com"
           git config --global user.name "edgestack-bot"
           CHART_PACKAGE_NAME="virtvnc-0.1.0.tgz"
           cd virtvnc-helm
